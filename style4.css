@@ -1,0 +1,70 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+.section-title {
+    color: #FF00FF;
+    font-size: 60px;
+    font-weight: bolder;
+    -webkit-text-stroke: 1px #000000;
+    margin-right: auto;
+    margin-left: auto;
+}
+.sections-title {
+    color: #FF00FF;
+    font-size: 100px;
+    font-weight: bolder;
+    font-style: italic;
+    -webkit-text-stroke: 1px #000000;
+    margin-right: auto;
+    margin-left: auto;
+}
+.title img {
+    width: 100%;
+    height: 175%;
+    opacity: 0.5;
+    position: absolute;
+}
+.about-left {
+    border-bottom: dashed 1px #000000;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.titles {
+    border-bottom: dashed 1px #000000;
+    color: #FF0000;
+    -webkit-text-stroke: 1px #000000;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.about-right {
+    font-size: 40px;
+    font-weight: lighter;
+    color: #DC143C;
+    -webkit-text-stroke: 1px #000000;
+    
+}

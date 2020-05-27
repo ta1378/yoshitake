@@ -1,10 +1,38 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
 header {
     background: #ffd5ec;
 }
 .header-logo {
     font-size: 80px;
     font-weight: initial;
-    margin-left: 20px;
+    margin-left: 35px;
     line-height: 70px;
 }
 
@@ -43,6 +71,7 @@ header {
     background: linear-gradient(#ffbbff 0%, #ff44ff 100%);
     text-shadow: 1px 1px 1px rgba(255,255,255,0.66);
     box-shadow: 0 1px 1px rgba(0,0,0,0.28);
+    margin: 35px;
 }
 .about {
     -webkit-transform: translateY(2px);
@@ -57,7 +86,7 @@ header {
 }
 .body-nav li{
     padding: 2.5%;
-    display: flex;
+    display: inline-block;
     flex-direction: row;
     justify-content: space-evenly;
 }
@@ -77,7 +106,7 @@ header {
     text-shadow: 1px 1px 1px rgba(255,255,255,0.66);
     box-shadow: 0 1px 1px rgba(0,0,0,0.28);
     text-align: center;
-
+    margin-bottom: 15px;
 }
 .second {
     display: inline-block;
@@ -94,6 +123,7 @@ header {
     background: linear-gradient(#bad3ff 0%, #5d99ff 100%);
     text-shadow: 1px 1px 1px rgba(255,255,255,0.66);
     box-shadow: 0 1px 1px rgba(0,0,0,0.28);
+    margin-bottom: 15px;
 }
 .contain{
     align-items: center;
