@@ -1,0 +1,159 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+.section-title {
+    color: #FF00FF;
+    font-size: 60px;
+    font-weight: bolder;
+    text-shadow: 3px 3px black;
+    margin-right: auto;
+    margin-left: auto;
+}
+.sections-title {
+    color:#FF3366 ;
+    font-size: 150px;
+    font-weight: bolder;
+    font-style: italic;
+    text-shadow: 7px 7px black;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.title img {
+    width: 150%;
+    height: 210%;
+    opacity: 0.5;
+    position: absolute;
+}
+.about-left {
+    border-bottom: dashed 1px #000000;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.titles {
+    border-bottom: dashed 1px #000000;
+    color: #FF0000;
+    -webkit-text-stroke: 1px #000000;
+    font-size: 50px;
+    font-weight: bolder;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.about-left p {
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.logic p {
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.about-right {
+    font-size: 60px;
+    font-weight: lighter;
+    color: #DC143C;
+    -webkit-text-stroke: 1px #000000;
+    margin-top: 300px;
+   margin-bottom: 50px;
+    text-align: center;
+}
+#footer{
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}
+@media screen and (max-width: 768px) {
+    #hamburger {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        cursor: pointer;
+        z-index: 100;
+        top: 15px;
+        right: 20px;
+        transition: .4s;
+    }
+}
+#hamburger span {
+    position: absolute;
+    left: 2px;
+    display: block;
+    width: 35px;
+    height: 2px;
+    background-color: #fff;
+    transition: .8s;
+}
+#hamburger span:nth-of-type(1) {
+    top: 10px;
+}
+#hamburger span:nth-of-type(2) {
+    top: 20px;
+}
+#hamburger span:nth-of-type(3) {
+    top: 30px;
+}
+@media screen and (max-width:768px) {
+    .title img { 
+        background-size: cover;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-left,
+    .about-right {
+        width: 80%;
+    }
+}
+@media screen and (max-width:768px) {
+    .business-cat {
+        width: 80%;
+    }
+}
+label {
+    display: inline-block;
+    width: 30%;
+}
+@media screen and (max-width: 768px) {
+    label {
+        display: block;
+    }
+}
+.form > div {
+    margin: 0 auto;
+}
+input,textarea {
+    width: 100%;
+}

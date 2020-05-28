@@ -93,6 +93,8 @@ header {
     display: inline-block;
     flex-direction: row;
     justify-content: space-evenly;
+    border-right: #000;
+    
 }
 .original {
     margin: 0 auto;
@@ -195,9 +197,7 @@ header {
      justify-content: space-around;
      background: linear-gradient(#8EF1FF, #13EEFF);
      }
-.target a:hover {
 
-}
     
 .contact {
          background: #FFCCFF;
@@ -296,14 +296,13 @@ textarea {
 }
 
 @media screen and (max-width: 768px) {
-    .original {
-        width: 80%;
+    .original img {
+        width: 30%;
     }
 }
 @media screen and (max-width:768px) {
     .baseman {
         width: 80%;
-        
     }
 }
 label {
