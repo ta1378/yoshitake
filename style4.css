@@ -46,8 +46,9 @@ time, mark, audio, video {
     justify-content: center;
 }
 .title img {
-    width: 150%;
-    height: 210%;
+    margin: 0px ;
+    width: 100%;
+    height: 200%;
     opacity: 0.5;
     position: absolute;
 }
@@ -92,7 +93,7 @@ time, mark, audio, video {
 #footer{
     height: 80px;
     text-align: center;
-    line-height: 80px;
+    margin-bottom: 0px;
 }
 @media screen and (max-width: 768px) {
     #hamburger {
@@ -126,34 +127,19 @@ time, mark, audio, video {
 }
 @media screen and (max-width:768px) {
     .title img { 
-        background-size: cover;
-        height: auto;
+        height: 70%;
+        width: 150%;
     }
 }
 
 @media screen and (max-width: 768px) {
     .about-left,
     .about-right {
-        width: 80%;
+        width: 50%;
     }
 }
 @media screen and (max-width:768px) {
-    .business-cat {
-        width: 80%;
+    .section-title {
+        width: 50%;
     }
-}
-label {
-    display: inline-block;
-    width: 30%;
-}
-@media screen and (max-width: 768px) {
-    label {
-        display: block;
-    }
-}
-.form > div {
-    margin: 0 auto;
-}
-input,textarea {
-    width: 100%;
 }
