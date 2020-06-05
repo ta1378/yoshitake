@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    
+    <header>
+        <div class="flex between">
+            <h1 class="header-logo">estra inc.</h1>
+            <nav class="header-nav">
+                <!-- <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">service</a></li>
+                    <li><a href="#">works</a></li>
+                    <li><a href="#">price</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul> -->
+                <ul id="menu">
+                    <li>Menu1
+                        <ul class="child">
+                            <li><a href="#">Menu1</a></li>
+                            <li><a href="#">Menu1</a></li>
+                        </ul>
+                    </li>
+                    <li>Menu2
+                        <ul class="child">
+                            <li><a href="#">Menu2</a></li>
+                            <li><a href="#">Menu2</a></li>
+                            <li><a href="#">Menu2</a></li>
+                        </ul>
+                    </li>Menu3
+                    <li>
+                        <ul>
+                            <li><a href="#">Menu3</a></li>
+                            <li><a href="#">Menu3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+        
+    </div>
+    <body>
+        <div id="eyecatch">
+            <p>estra inc</p>
+        </div>
+        <nav class="menu-content">
+            <p class="menu-title">estra inc.</p>
+            <ul class="menu-content_inner">
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">service</a></li>
+                <li><a href="#">works</a></li>
+                <li><a href="#">price</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+        <div id="about" class="wrap">
+            <h2 class="section-title">about</h2>
+            <div class="flex around ">
+                <div class="about-left">
+                    <img src="img/niji.jpg">
+                </div>
+                <div class="about-right">
+                    <h3>estra　inc.</h3>
+                    <p>私たちestra incは、お客様の満足度を徹底的に追及することで、お客様・市場・時代のニーズを的確に捉え、事業の拡大と周辺ビジネスによる差別化、業界における圧倒的な地位の確立を図るべく積極的な事業活動を行っています。</p>
+                    <ol>
+                        <li>コーチング事業</li>
+                        <li>プログラミング事業</li>
+                        <li>SaaS事業</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div id="business">
+            <h2 class="section-title">service</h2>
+            <div class="flex around business-wrap">
+                <div class="business-cat">
+                    <img src="img/twoball.jpg">
+                    <h3>ビジネスA</h3>
+                    <p>ビジネスの説明が入ります。ビジネスの説明が入ります。ビジネスの説明が入ります。</p>
+                </div>
+
+                <div class="business-cat">
+                    <img src="img/twoball.jpg">
+                    <h3>ビジネスB</h3>
+                    <p>ビジネスの説明が入ります。ビジネスの説明が入ります。ビジネスの説明が入ります。</p>
+                </div>
+
+                <div class="business-cat">
+                    <img src="img/twoball.jpg">
+                    <h3>ビジネスC</h3>
+                    <p>ビジネスの説明が入ります。ビジネスの説明が入ります。ビジネスの説明が入ります。</p>
+                </div>
+            </div>
+        </div>
+        <div id="company" class="mgb-50">
+            <h2 class="section-title">company</h2>
+            <table class="contain">
+                <tr>
+                    <th>会社名</th>
+                    <td>株式会社estra</td>
+                </tr>
+                <tr>
+                    <th>代表者名</th>
+                    <td>福場凛太郎</td>   
+                </tr> 
+                <tr>
+                    <th>本社所在地</th>
+                    <td>東京都渋谷区1－1</td>   
+                </tr>
+                 <tr>
+                    <th>従業員数</th>
+                    <td>100名</td>   
+                </tr>
+                 <tr>
+                    <th>電話番号</th>
+                    <td>0120－000-0000</td>   
+                </tr> 
+                <tr>
+                    <th>FAX</th>
+                    <td>0120-000-0000</td>   
+                </tr> 
+                <tr>
+                    <th>メールアドレス</th>
+                    <td>rintaro@estra.inc</td>   
+                </tr>
+                 <tr>
+                    <th>資本金</th>
+                    <td>1000万円</td>   
+                </tr> 
+                <tr>
+                    <th>事業内容</th>
+                    <td>コーチング</td>   
+                </tr>
+            </table>
+        </div>
+        <div class="contact">
+            <h2 class="section-title">contact</h2>
+            <form class="form" method="post">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name">
+                </div>
+                <div>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="user_mail"> 
+                </div>
+                <div>
+                    <label for="tell">Tell:</label>
+                    <input type="tell" id="tell" name="user_name"> 
+                </div>
+                <div>
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="user_message" ></textarea>
+                </div>
+                <div class="button-submit">
+                    <button class="button" type="submit">Button</button>
+                </div>
+            </form>
+       </div>
+       <h1 class="change">色が変わるよ！</h1>
+       <button class="button">Change Color</button>
+
+       <h1 class="show">テキスト！</h1>
+       <button class="button">Show Text</button>
+
+       <p class="test">テスト1</p>
+       <p class="test">テスト2</p>
+       <p class="test">テスト3</p>
+
+       <h1 class="text">テキスト1</h1>
+       <h1 class="text">テキスト2</h1>
+       <h1 class="text">テキスト3</h1>
+       
+       <div id="top-btn">↑</div>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+       <script src="main.js"></script>
+     </body>
+
+
+
+<!-- <p id="e1">id名から取得</p>
+<h1 class="e2">class名から取得</h1>
+<h2 class="e2">class名から取得</h2>
+<h3>タグ名から取得</h3>
+    <script>
+            var element1 =
+            document.getElementById('e1')
+            var element2 =
+            document.getElementsByClassName('e2')
+            var element3 =
+            document.getElementsByTagName('h3')
+            console.log(element1)
+            console.log(element2[0])
+            console.log(element2[1])
+            console.log(element3[0])
+    </script> -->
+
+<!-- <p id="e1">id名から取得</p>
+<p id="e2">id名から取得</p>
+<p id="e4"></p>
+<script>
+        var element1 = document.getElementById('e1')
+        element1.innerText = "テキストを変更しました"
+        console.log(element1)
+        var element2 = document.getElementById('e2')
+        element2.innerHTML =　'<p>pタグを追加しました</p>'
+        console.log(element2)
+        var element3 = document.createElement('h1')
+        element3.setAttribute('class', 'e3')
+        element3.innerText = 'a'
+        console.log(element3)
+        var element4 = document.getElementById('e4')
+        element4.appendChild(element3)
+        console.log(element4)
+</script> -->
+
+
+
+
+
+    <footer id="footer">
+        <small>Copyright 2019 estra inc. ALL Right Reserved</small>
+    </footer>
+
+     </html>
